@@ -2,7 +2,7 @@ const { Bot, logToConsole } = require('grammy');
 const fs = require('fs');
 require('dotenv').config();
 
-const bot = new Bot(process.env.TELEGRAM_BOT_TOKEN);
+const bot = new Bot(process.env.8258597359:AAGvZgFoacBjSHzw0GlgDYr-vW1r9vZ3nK4);
 
 const forbiddenWords = fs.readFileSync('./banword.txt', 'utf-8')
   .split('\n')
